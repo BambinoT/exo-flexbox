@@ -1,0 +1,119 @@
+header{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    background-color: aqua;
+    height: 70px;
+    justify-content: center;
+
+  
+}
+.main{
+    background-color: yellow;
+    width:100%;
+    height: 520px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    background-color: aquamarine;
+    height: 70px;
+    justify-content: center;
+} 
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    width:100%;
+    height: 50%; 
+    justify-content: center;
+    text-align: center;
+}
+.div4{
+    display: flex;
+    flex-direction: column;
+    background-color: palevioletred;
+    width:100%;
+    height: 50%; 
+    justify-content: center;
+    text-align: center;
+}
+.main h1{
+    margin: 20%;
+}
+
+
+@media screen and (max-width : 960px) {
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        background-color: aqua;
+        height: 70px;
+        justify-content: center;
+    
+      
+    }
+    .main{
+        background-color: yellow;
+        width:100%;
+        height: 520px;
+        text-align: center;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        background-color: aquamarine;
+        height: 70px;
+        justify-content: center;
+    } 
+    
+    .contain{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .div3{
+        display: flex;
+        flex-direction: row;
+        background-color: green;
+        width:100%;
+        height: 50%; 
+       
+    }
+    .div4{
+        display: flex;
+        flex-direction: row;
+        background-color: palevioletred;
+        width:100%;
+        height: 50%; 
+        
+    }
+    .main h1{
+        margin: 20%;
+    }
+    
+
+}
